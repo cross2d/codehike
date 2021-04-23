@@ -83,7 +83,6 @@ export function Code({
             }
             prevFocus={prevFocusIndexes}
             nextFocus={nextFocusIndexes}
-            minZoom={minZoom}
             maxZoom={maxZoom}
             center={horizontalCenter}
           />

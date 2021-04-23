@@ -31,5 +31,6 @@
   "dependencies": {
     "diff": "^4.0.2",
     "prismjs": "^1.22.0"
-  }
+  },
+  "gitHead": "5ba3c3f6093cbd2143a2d3d139ba16cd1dbce4a0"
 }

@@ -32,5 +32,6 @@
   },
   "dependencies": {
     "@code-hike/classer": "^0.3.0-next.0"
-  }
+  },
+  "gitHead": "5ba3c3f6093cbd2143a2d3d139ba16cd1dbce4a0"
 }
