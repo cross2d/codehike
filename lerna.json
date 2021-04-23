@@ -7,7 +7,9 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "verifyAccess": false
+      "npmClient": "npm",
+      "verifyAccess": false,
+      "ignoreChanges": []
     }
   }
 }
