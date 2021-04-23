@@ -127,7 +127,6 @@ function useLineProps(
       prevCode,
       prevFocusIndexes
     )
-
     const nextFocusByKey = getFocusByKey(
       nextFocus,
       nextKeys
