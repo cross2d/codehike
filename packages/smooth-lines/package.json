@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/smooth-lines",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
