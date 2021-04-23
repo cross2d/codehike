@@ -1,5 +1,5 @@
 {
-  "name": "@code-hike/mini-frame",
+  "name": "@cross2d/mini-frame",
   "version": "0.3.0-next.0",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",

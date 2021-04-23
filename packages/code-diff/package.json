@@ -1,5 +1,5 @@
 {
-  "name": "@code-hike/code-diff",
+  "name": "@cross2d/code-diff",
   "version": "0.3.0-next.0",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",

@@ -1,5 +1,5 @@
 {
-  "name": "@code-hike/mini-editor",
+  "name": "@cross2d/mini-editor",
   "version": "0.3.0-next.0",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "dist"
   ],
   "scripts": {
-    "x": "x"
+    "x": "x",
+    "publish": "npm run publish"
   },
   "devDependencies": {
     "@code-hike/script": "0.0.1",
