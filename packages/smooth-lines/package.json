@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/smooth-lines",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
@@ -29,7 +29,5 @@
     "type": "opencollective",
     "url": "https://opencollective.com/codehike"
   },
-  "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31",
-  "dependencies": {
-  }
+  "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31"
 }
