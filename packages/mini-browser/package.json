@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/mini-browser",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
@@ -22,8 +22,8 @@
     "ts-jest": "^26.4.1"
   },
   "dependencies": {
-    "@cross2d/classer": "^0.3.0-next.0",
-    "@cross2d/mini-frame": "^0.3.0-next.0",
+    "@cross2d/classer": "^0.3.4",
+    "@cross2d/mini-frame": "^0.3.4",
     "use-spring": "^0.2.3"
   },
   "peerDependencies": {
