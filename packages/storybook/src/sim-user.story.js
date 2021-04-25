@@ -1,6 +1,6 @@
 import React from "react"
 import { Page } from "./utils"
-import { sim } from "@code-hike/sim-user"
+import { sim } from "@cross2d/sim-user"
 
 export default {
   title: "Sim User",

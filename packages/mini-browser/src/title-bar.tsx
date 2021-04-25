@@ -1,6 +1,6 @@
 import React from "react"
 import { Back, Forward, Open } from "./buttons"
-import { FrameButtons } from "@code-hike/mini-frame"
+import { FrameButtons } from "@cross2d/mini-frame"
 
 export { TitleBar }
 

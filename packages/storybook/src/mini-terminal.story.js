@@ -2,9 +2,9 @@ import React from "react"
 import {
   MiniTerminal,
   InnerTerminal,
-} from "@code-hike/mini-terminal"
+} from "@cross2d/mini-terminal"
 import { WithProgress, Page } from "./utils"
-import "@code-hike/mini-terminal/dist/index.css"
+import "@cross2d/mini-terminal/dist/index.css"
 
 export default {
   title: "Mini Terminal",

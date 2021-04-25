@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useLoadingOverlayState } from "@codesandbox/sandpack-react"
-import { useClasser } from "@code-hike/classer"
+import { useClasser } from "@cross2d/classer"
 
 export function LoadingOverlay() {
   const c = useClasser("ch-hike")

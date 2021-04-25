@@ -22,8 +22,8 @@
     "ts-jest": "^26.4.1"
   },
   "dependencies": {
-    "@code-hike/classer": "^0.3.0-next.0",
-    "@code-hike/mini-frame": "^0.3.0-next.0",
+    "@cross2d/classer": "^0.3.0-next.0",
+    "@cross2d/mini-frame": "^0.3.0-next.0",
     "use-spring": "^0.2.3"
   },
   "peerDependencies": {
@@ -40,5 +40,5 @@
     "type": "opencollective",
     "url": "https://opencollective.com/codehike"
   },
-  "gitHead": "c80c6a5a890f70f425aa3750b8f3a5e9886001fe"
+  "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31"
 }

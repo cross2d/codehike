@@ -1,8 +1,8 @@
 import React from "react"
-import { MiniFrame } from "@code-hike/mini-frame"
+import { MiniFrame } from "@cross2d/mini-frame"
 import { TitleBar } from "./title-bar"
 import { MiniBrowserStep, useSteps } from "./use-steps"
-import { useClasser, Classes } from "@code-hike/classer"
+import { useClasser, Classes } from "@cross2d/classer"
 
 type Transition = "none" | "slide"
 

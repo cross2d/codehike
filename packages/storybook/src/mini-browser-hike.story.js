@@ -1,6 +1,6 @@
 import React from "react"
-import { MiniBrowserHike } from "@code-hike/mini-browser"
-import "@code-hike/mini-browser/dist/index.css"
+import { MiniBrowserHike } from "@cross2d/mini-browser"
+import "@cross2d/mini-browser/dist/index.css"
 import { WithProgress, Page } from "./utils"
 
 export default {

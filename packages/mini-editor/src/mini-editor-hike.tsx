@@ -1,6 +1,6 @@
 import React from "react"
 import { EditorFrame, TerminalPanel } from "./editor-frame"
-import { InnerTerminal } from "@code-hike/mini-terminal"
+import { InnerTerminal } from "@cross2d/mini-terminal"
 import { Code } from "./code"
 import {
   useBackwardTransitions,
@@ -39,6 +39,8 @@ export type MiniEditorHikeProps = {
 } & React.PropsWithoutRef<JSX.IntrinsicElements["div"]>
 
 function MiniEditorHike(props: MiniEditorHikeProps) {
+
+  console.log("MiniEditorHike-->",props)
   const {
     progress = 0,
     backward = false,
@@ -83,6 +85,7 @@ function MiniEditorHike(props: MiniEditorHikeProps) {
     { code, focus, lang, file },
     ogSteps || []
   )
+
 
   return (
     <EditorFrame
@@ -179,6 +182,7 @@ function EditorContent({
   maxZoom,
   horizontalCenter,
 }: ContentProps) {
+  debugger
   const fwdTransitions = useForwardTransitions(steps)
   const bwdTransitions = useBackwardTransitions(steps)
 

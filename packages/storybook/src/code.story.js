@@ -1,7 +1,7 @@
 import React from "react"
-import { SmoothLines } from "@code-hike/smooth-lines"
+import { SmoothLines } from "@cross2d/smooth-lines"
 import { WithProgress } from "./utils"
-import { codeDiff } from "@code-hike/code-diff"
+import { codeDiff } from "@cross2d/code-diff"
 
 export default {
   title: "Smooth Code",

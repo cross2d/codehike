@@ -29,5 +29,8 @@
     "type": "opencollective",
     "url": "https://opencollective.com/codehike"
   },
-  "gitHead": "c80c6a5a890f70f425aa3750b8f3a5e9886001fe"
+  "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31",
+  "dependencies": {
+    "scrollycoding-in-react": "^1.0.0"
+  }
 }

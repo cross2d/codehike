@@ -28,10 +28,12 @@ const createConfig = filename => ({
     {
       file: `./dist/${filename}.cjs.js`,
       format: "cjs",
+      sourcemap: true
     },
     {
       file: `./dist/${filename}.esm.js`,
       format: "es",
+      sourcemap: true
     },
   ],
   // external: ["react"],

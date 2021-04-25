@@ -2,8 +2,8 @@ import React from "react"
 import {
   MiniFrame,
   FrameButtons,
-} from "@code-hike/mini-frame"
-import "@code-hike/mini-frame/dist/index.css"
+} from "@cross2d/mini-frame"
+import "@cross2d/mini-frame/dist/index.css"
 import { Page } from "./utils"
 
 export default {

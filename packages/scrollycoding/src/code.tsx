@@ -1,5 +1,5 @@
 import * as React from "react"
-import { MiniEditor } from "@code-hike/mini-editor"
+import { MiniEditor, MiniEditorHike } from "@cross2d/mini-editor"
 import { CodeProps } from "./hike-context"
 import { useCodeSandboxLink } from "@codesandbox/sandpack-react"
 
@@ -10,6 +10,7 @@ function Code({ files, activeFile, ...props }: CodeProps) {
   const tabs = Object.keys(files).filter(
     filename => !files[filename].hideTab
   )
+  console.log("Code", props)
   return (
     <MiniEditor
       key={activeFile}

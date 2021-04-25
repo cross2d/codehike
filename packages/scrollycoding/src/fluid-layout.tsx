@@ -1,5 +1,5 @@
 import React from "react"
-import { useClasser } from "@code-hike/classer"
+import { useClasser } from "@cross2d/classer"
 import { Code } from "./code"
 import { Preview } from "./preview"
 import {
@@ -26,6 +26,7 @@ function FluidLayout({
   steps,
   ...props
 }: HikeProps) {
+  console.log("FluidLayout--->steps", steps)
   const c = useClasser("ch")
   const [state, dispatch] = React.useReducer(
     reducer,

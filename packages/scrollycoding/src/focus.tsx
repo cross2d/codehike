@@ -1,4 +1,4 @@
-import { useClasser } from "@code-hike/classer"
+import { useClasser } from "@cross2d/classer"
 import * as React from "react"
 import { useStepIndex } from "./demo-context"
 import {

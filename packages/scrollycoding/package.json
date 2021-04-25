@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/scrollycoding",
-  "version": "0.3.3",
+  "version": "0.0.0-e374cd3",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
@@ -20,10 +20,10 @@
     "react": "^16.13.1"
   },
   "dependencies": {
-    "@code-hike/classer": "^0.3.0-next.0",
-    "@code-hike/mini-browser": "^0.3.0-next.0",
-    "@code-hike/mini-editor": "^0.3.0-next.0",
-    "@code-hike/scroller": "^0.3.0-next.0",
+    "@cross2d/classer": "^0.3.3",
+    "@cross2d/mini-browser": "^0.3.3",
+    "@cross2d/mini-editor": "^0.3.3",
+    "@cross2d/scroller": "^0.3.3",
     "@codesandbox/sandpack-react": "^0.0.1",
     "object-hash": "^2.1.1",
     "server-side-media-queries-for-react": "^0.0.5"
@@ -48,5 +48,5 @@
     "type": "opencollective",
     "url": "https://opencollective.com/codehike"
   },
-  "gitHead": "c80c6a5a890f70f425aa3750b8f3a5e9886001fe"
+  "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31"
 }

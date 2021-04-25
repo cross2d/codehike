@@ -1,6 +1,6 @@
-import { Classes } from "@code-hike/classer"
-import { MiniBrowserProps } from "@code-hike/mini-browser"
-import { MiniEditorProps } from "@code-hike/mini-editor"
+import { Classes } from "@cross2d/classer"
+import { MiniBrowserProps } from "@cross2d/mini-browser"
+import { MiniEditorProps, MiniEditorHikeProps } from "@cross2d/mini-editor"
 import {
   SandpackPredefinedTemplate,
   SandpackSetup,
@@ -28,7 +28,7 @@ export interface CodeFiles {
 export type CodeProps = {
   files: CodeFiles
   activeFile: string
-} & Omit<MiniEditorProps, "file" | "code" | "lang">
+} & Omit<MiniEditorHikeProps, "file" | "code" | "lang">
 
 export interface HikeStep {
   content: React.ReactNode[]

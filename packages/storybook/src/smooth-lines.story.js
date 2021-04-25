@@ -1,5 +1,5 @@
 import React from "react"
-import { SmoothLines } from "@code-hike/smooth-lines"
+import { SmoothLines } from "@cross2d/smooth-lines"
 import { WithProgress } from "./utils"
 
 export default {

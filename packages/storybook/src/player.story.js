@@ -1,6 +1,6 @@
 import React from "react"
 import { Page } from "./utils"
-import { Video, Controls } from "@code-hike/player"
+import { Video, Controls } from "@cross2d/player"
 import videoSrc from "./assets/timer.mp4"
 
 export default {

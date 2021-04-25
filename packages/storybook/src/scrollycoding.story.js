@@ -7,8 +7,8 @@ import {
   CodeSlot,
   PreviewSlot,
   useMdxSteps,
-} from "@code-hike/scrollycoding"
-import "@code-hike/scrollycoding/dist/index.css"
+} from "@cross2d/scrollycoding"
+import "@cross2d/scrollycoding/dist/index.css"
 import Basic from "./assets/scrollycoding.basic.mdx"
 import WithDeps from "./assets/scrollycoding.deps.mdx"
 import RepeatedSteps from "./assets/scrollycoding.repeat.mdx"
@@ -20,12 +20,9 @@ export default {
 
 export function basic() {
   return (
-    <Page
-      style={{
-        // outline: "2px solid darkblue",
+    <Page style={{
         maxWidth: 800,
-      }}
-    >
+    }}>
       <MDXProvider components={components}>
         <Basic />
       </MDXProvider>
@@ -35,11 +32,7 @@ export function basic() {
 
 export function withDeps() {
   return (
-    <Page
-      style={{
-        maxWidth: 800,
-      }}
-    >
+    <Page style={{ maxWidth: 800 }}>
       <MDXProvider components={components}>
         <WithDeps />
       </MDXProvider>
@@ -49,11 +42,9 @@ export function withDeps() {
 
 export function repeatedSteps() {
   return (
-    <Page
-      style={{
+    <Page style={{
         maxWidth: 800,
-      }}
-    >
+      }}>
       <MDXProvider components={components}>
         <RepeatedSteps />
       </MDXProvider>
@@ -91,6 +82,8 @@ function Hike({
       ...codeProps,
     }
   )
+
+  console.log("Hike--->", steps)
 
   return <HikeComponent steps={steps} {...props} />
 }

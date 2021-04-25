@@ -2,7 +2,7 @@ import React from "react"
 import {
   MiniFrame,
   FrameButtons,
-} from "@code-hike/mini-frame"
+} from "@cross2d/mini-frame"
 import { Classes, useClasser } from "@code-hike/classer"
 import "./index.scss"
 

@@ -3,7 +3,7 @@ import {
   SandpackPreview,
   useCodeSandboxLink,
 } from "@codesandbox/sandpack-react"
-import { MiniBrowser } from "@code-hike/mini-browser"
+import { MiniBrowser } from "@cross2d/mini-browser"
 import { PreviewProps } from "./hike-context"
 import { LoadingOverlay } from "./preview-loader"
 

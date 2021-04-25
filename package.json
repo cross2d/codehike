@@ -11,7 +11,7 @@
     "watch-package": "lerna run --scope @*/mini-frame --include-dependencies --parallel x -- watch",
     "watch-all": "lerna run --parallel x -- watch",
     "storybook": "lerna run --scope storybook start --stream",
-    "dev": "lerna run --scope react-website dev --stream",
+    "dev": "lerna run --scope @cross2d/scrollycoding dev --stream",
     "release": "auto shipit"
   },
   "devDependencies": {

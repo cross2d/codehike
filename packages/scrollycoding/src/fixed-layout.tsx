@@ -1,5 +1,5 @@
 import React from "react"
-import { useClasser } from "@code-hike/classer"
+import { useClasser } from "@cross2d/classer"
 import {
   CodeProps,
   HikeProps,
@@ -19,7 +19,7 @@ export { FixedLayout, CodeSlot, PreviewSlot }
 
 function FixedLayout({ steps, ...props }: HikeProps) {
   const c = useClasser("ch")
-
+  console.log("FixedLayout--->steps", steps)
   return (
     <HikeProvider value={{ layout: "fixed" }}>
       <section

@@ -1,6 +1,6 @@
 import React from "react"
-import { codeDiff, CodeLine } from "@code-hike/code-diff"
-import { SmoothLines } from "@code-hike/smooth-lines"
+import { codeDiff, CodeLine } from "@cross2d/code-diff"
+import { SmoothLines } from "@cross2d/smooth-lines"
 import { useDimensions } from "./use-dimensions"
 import {
   getFocusByKey,

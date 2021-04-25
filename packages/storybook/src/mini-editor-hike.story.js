@@ -1,7 +1,7 @@
 import React from "react"
-import { MiniEditorHike } from "@code-hike/mini-editor"
+import { MiniEditorHike } from "@cross2d/mini-editor"
 import { Page, WithProgress } from "./utils"
-import "@code-hike/mini-editor/dist/index.css"
+import "@cross2d/mini-editor/dist/index.css"
 
 export default {
   title: "Mini Editor Hike",

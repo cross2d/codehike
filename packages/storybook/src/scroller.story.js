@@ -1,6 +1,6 @@
 import React from "react"
 import { Page } from "./utils"
-import { Scroller, Step } from "@code-hike/scroller"
+import { Scroller, Step } from "@cross2d/scroller"
 
 export default {
   title: "Scroller",

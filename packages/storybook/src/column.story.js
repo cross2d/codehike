@@ -1,6 +1,6 @@
 import React from "react"
 import { WithProgress } from "./utils"
-import { SmoothColumn } from "@code-hike/smooth-column"
+import { SmoothColumn } from "@cross2d/smooth-column"
 
 export default {
   title: "Smooth Column",
