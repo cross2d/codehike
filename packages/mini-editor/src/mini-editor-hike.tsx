@@ -39,8 +39,6 @@ export type MiniEditorHikeProps = {
 } & React.PropsWithoutRef<JSX.IntrinsicElements["div"]>
 
 function MiniEditorHike(props: MiniEditorHikeProps) {
-
-  console.log("MiniEditorHike-->",props)
   const {
     progress = 0,
     backward = false,

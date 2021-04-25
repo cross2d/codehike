@@ -19,7 +19,6 @@ type StepTransition = {
 export { useForwardTransitions, useBackwardTransitions }
 
 function useForwardTransitions(steps: Step[]) {
-  console.log("useForwardTransitions steps===>",steps)
   return React.useMemo(() => {
     const transitions: StepTransition[] = steps.map(
       (step, i) => {
