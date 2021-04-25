@@ -10,7 +10,6 @@ function Code({ files, activeFile, ...props }: CodeProps) {
   const tabs = Object.keys(files).filter(
     filename => !files[filename].hideTab
   )
-  console.log("Code", props)
   return (
     <MiniEditor
       key={activeFile}

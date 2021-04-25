@@ -26,7 +26,6 @@ function FluidLayout({
   steps,
   ...props
 }: HikeProps) {
-  console.log("FluidLayout--->steps", steps)
   const c = useClasser("ch")
   const [state, dispatch] = React.useReducer(
     reducer,
