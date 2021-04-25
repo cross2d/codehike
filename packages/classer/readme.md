@@ -6,7 +6,7 @@ You write your library code like this:
 
 ```jsx
 // foo-library code
-import { useClasser } from "@code-hike/classer"
+import { useClasser } from "@cross2d/classer"
 
 export function Foo({ classes }) {
   const c = useClasser("foo", classes)
@@ -65,7 +65,7 @@ You can also do this (to avoid passing `classes` to nested components):
 import {
   useClasser,
   ClasserProvider,
-} from "@code-hike/classer"
+} from "@cross2d/classer"
 
 export function Foo({ classes }) {
   return (

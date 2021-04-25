@@ -12,7 +12,7 @@ import {
   PreviewProps,
   useFluidContext,
 } from "./hike-context"
-import { Scroller, Step } from "@code-hike/scroller"
+import { Scroller, Step } from "@cross2d/scroller"
 import {
   DemoProvider,
   StepContext,

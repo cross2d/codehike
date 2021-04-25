@@ -6,7 +6,7 @@ import {
   useBackwardTransitions,
   useForwardTransitions,
 } from "./steps"
-import { Classes } from "@code-hike/classer"
+import { Classes } from "@cross2d/classer"
 // import "./theme.css"
 
 export { MiniEditorHike }

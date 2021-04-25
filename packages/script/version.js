@@ -23,8 +23,8 @@ function changeDependencies(file, depType, version) {
 
   const names = Object.keys(deps).filter(
     name =>
-      name.startsWith("@code-hike/") &&
-      name !== "@code-hike/script"
+      name.startsWith("@cross2d/") &&
+      name !== "@cross2d/script"
   )
 
   names.forEach(name => {

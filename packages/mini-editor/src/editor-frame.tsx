@@ -3,7 +3,7 @@ import {
   MiniFrame,
   FrameButtons,
 } from "@cross2d/mini-frame"
-import { Classes, useClasser } from "@code-hike/classer"
+import { Classes, useClasser } from "@cross2d/classer"
 import "./index.scss"
 
 export { EditorFrame, TerminalPanel }

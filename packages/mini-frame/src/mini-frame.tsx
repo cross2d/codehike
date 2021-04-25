@@ -3,7 +3,7 @@ import {
   ClasserProvider,
   useClasser,
   Classes,
-} from "@code-hike/classer"
+} from "@cross2d/classer"
 
 type MiniFrameProps = {
   title?: string

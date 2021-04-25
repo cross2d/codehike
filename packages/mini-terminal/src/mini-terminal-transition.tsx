@@ -1,6 +1,6 @@
 import React from "react"
 import { TerminalContent } from "./terminal-content"
-import { MiniFrame } from "@code-hike/mini-frame"
+import { MiniFrame } from "@cross2d/mini-frame"
 
 function MiniTerminalTransition({
   title = "bash",
