@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/mini-terminal",
-  "version": "0.3.4",
+  "version": "0.3.6",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
@@ -11,12 +11,12 @@
     "x": "x"
   },
   "devDependencies": {
-    "@cross2d/script": "^0.3.4",
+    "@cross2d/script": "^0.3.6",
     "@types/react": "^16.9.38",
     "react": "^16.13.1"
   },
   "dependencies": {
-    "@cross2d/mini-frame": "^0.3.0-next.0"
+    "@cross2d/mini-frame": "^0.3.6"
   },
   "peerDependencies": {
     "react": ">=16.8"

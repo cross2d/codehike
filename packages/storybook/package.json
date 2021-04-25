@@ -1,7 +1,7 @@
 {
   "name": "storybook",
   "private": true,
-  "version": "0.3.5",
+  "version": "0.3.6",
   "scripts": {
     "start": "start-storybook -c ./src",
     "build": "build-storybook -c ./src -o ./dist"
@@ -13,7 +13,7 @@
     "@cross2d/mini-terminal": "0.3.0-next.0",
     "@cross2d/player": "0.3.0-next.0",
     "@cross2d/scroller": "0.3.0-next.0",
-    "@cross2d/scrollycoding": "^0.3.5",
+    "@cross2d/scrollycoding": "^0.3.6",
     "@cross2d/sim-user": "0.3.0-next.0",
     "@cross2d/smooth-column": "0.3.0-next.0",
     "@cross2d/smooth-lines": "0.3.0-next.0",
