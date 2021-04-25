@@ -17,7 +17,7 @@
 .ch-hike-content {
   width: 50%;
   box-sizing: border-box;
-  padding-right: 48px;
+  padding-left: 48px;
 }
 
 /* content steps */
@@ -67,7 +67,7 @@
     50vh - var(--sticker-height) / 2 +
       var(--page-header-height) / 2
   );
-  margin: 0 0 0 15px;
+  margin: 0 15px 0 0;
   display: flex;
   flex-flow: column;
   justify-content: center;

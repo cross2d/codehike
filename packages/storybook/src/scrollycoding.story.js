@@ -19,6 +19,8 @@ export default {
 }
 
 export function basic() {
+
+  console.log("Basic--->",Basic)
   return (
     <Page style={{
         maxWidth: 800,

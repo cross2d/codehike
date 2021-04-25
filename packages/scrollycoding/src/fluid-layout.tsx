@@ -58,14 +58,14 @@ function FluidLayout({
         className={c("hike", "hike-fluid")}
         {...props}
       >
-        <ContentColumn
-          steps={steps}
-          onStepChange={onStepChange}
-        />
         <StickerColumn
           previewProps={previewProps}
           codeProps={codeProps}
           noPreview={noPreview}
+        />
+        <ContentColumn
+          steps={steps}
+          onStepChange={onStepChange}
         />
       </section>
     </HikeProvider>
