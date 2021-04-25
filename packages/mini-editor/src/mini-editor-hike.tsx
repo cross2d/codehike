@@ -182,7 +182,6 @@ function EditorContent({
   maxZoom,
   horizontalCenter,
 }: ContentProps) {
-  debugger
   const fwdTransitions = useForwardTransitions(steps)
   const bwdTransitions = useBackwardTransitions(steps)
 
