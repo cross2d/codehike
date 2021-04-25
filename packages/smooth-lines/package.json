@@ -31,6 +31,5 @@
   },
   "gitHead": "e374cd30bd6663aac5323ea13d7ae23803453e31",
   "dependencies": {
-    "scrollycoding-in-react": "^1.0.0"
   }
 }
