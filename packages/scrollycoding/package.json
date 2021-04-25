@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/scrollycoding",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "main": "dist/index.cjs.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
@@ -23,7 +23,7 @@
     "@codesandbox/sandpack-react": "^0.0.1",
     "@cross2d/classer": "^0.3.6",
     "@cross2d/mini-browser": "^0.3.6",
-    "@cross2d/mini-editor": "^0.3.7",
+    "@cross2d/mini-editor": "^0.3.9",
     "@cross2d/scroller": "^0.3.6",
     "object-hash": "^2.1.1",
     "server-side-media-queries-for-react": "^0.0.5"
